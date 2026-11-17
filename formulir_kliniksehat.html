@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulir Klinik Sehat</title>
+  </head>
+  <body>
+    <h2>Formulir Pendaftaran Pasien Klinik Sehat</h2>
+
+    <form action="#" method="get">
+      <label for="nama">Nama Pasien:</label>
+      <input type="text" id="nama" name="nama" />
+      <br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" />
+      <br /><br />
+
+      <label for="tanggal">Tanggal Lahir:</label>
+      <input type="date" id="tanggal" name="tanggal_lahir" />
+      <br /><br />
+
+      <label>Jenis Kelamin:</label>
+      <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki" />
+      <label for="laki">Laki-laki</label>
+
+      <input
+        type="radio"
+        id="perempuan"
+        name="jenis_kelamin"
+        value="Perempuan"
+      />
+      <label for="perempuan">Perempuan</label>
+      <br /><br />
+
+      <label for="alamat">Alamat:</label>
+      <br />
+      <textarea id="alamat" name="alamat" rows="4" cols="30"></textarea>
+      <br /><br />
+
+      <label for="poli">Poli Tujuan:</label>
+      <select id="poli" name="poli">
+        <option value="Umum">Poli Umum</option>
+        <option value="Gigi">Poli Gigi</option>
+        <option value="Anak">Poli Anak</option>
+      </select>
+      <br /><br />
+
+      <label for="keluhan">Keluhan Pasien:</label>
+      <br />
+      <textarea id="keluhan" name="keluhan" rows="4" cols="30"></textarea>
+      <br /><br />
+
+      <input type="submit" value="Daftar" />
+      <input type="reset" value="Batal" />
+    </form>
+  </body>
+</html>
